@@ -39,3 +39,10 @@ This entire process runs offline within a Docker container and is optimized to b
 Navigate to the project's root directory in your terminal and run:
 ```bash
 docker build --platform linux/amd64 -t mysolution1b .
+```
+
+**3. Run the Container:**
+After the build is complete, run the following command to execute the analysis:
+```bash
+docker run --rm -v "%cd%/input:/app/input" -v "%cd%/output:/app/output" --network none mysolution1b
+```
