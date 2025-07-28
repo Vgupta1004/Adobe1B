@@ -1,0 +1,12 @@
+# Python virtual environment
+aenv/
+
+# Generated output files
+output/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VS Code specific settings
+.vscode/
