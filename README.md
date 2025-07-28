@@ -6,7 +6,7 @@ This project is a solution for Round 1B: Persona-Driven Document Intelligence.
 
 ---
 
-### [cite_start]Our Approach 
+### Our Approach 
 
 Our solution works by understanding the meaning (semantics) of the documents and the user's request. It follows these steps:
 
@@ -19,7 +19,7 @@ This entire process runs offline within a Docker container and is optimized to b
 
 ---
 
-### [cite_start]Models and Libraries Used 
+### Models and Libraries Used 
 
 * **Model:** `all-MiniLM-L6-v2` (from the `sentence-transformers` library) for generating text embeddings.
 * **Libraries:**
@@ -29,7 +29,7 @@ This entire process runs offline within a Docker container and is optimized to b
 
 ---
 
-### [cite_start]How to Build and Run the Solution 
+### How to Build and Run the Solution 
 
 **1. Prerequisites:**
 * Docker must be installed and running.
